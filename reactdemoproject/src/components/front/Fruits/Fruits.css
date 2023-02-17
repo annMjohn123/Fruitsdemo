@@ -1,0 +1,96 @@
+.Fruits {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(/public/images/b.jpg);
+    border-radius: 5px;
+} 
+
+.card {
+    margin: 3%;
+    transition: cubic-bezier(0.075,0.82,0.165,1);
+    background-color: rgb(8, 94, 17);
+    width: 24%;
+    border-radius: 60px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    float: left;
+    
+    
+}
+
+.Fruits-image {
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    padding: 16px 16pcx 16px 16px;
+    background-color: rgb(23, 23, 224);
+}
+
+.Fruits-name {
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(235, 245, 245);
+    background-color: rgb(194, 189, 88);
+    text-transform: capitalize;
+    padding-left: 90px;
+}
+
+.Fruit-price {
+    margin: 10px 0px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 80px;
+    background-color: rgb(20, 120, 220);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.Fruit-add-button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(186, 177, 83);
+    width: 70%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: rgb(252, 248, 248);
+
+}
+
+
+.Fruit-add-button:hover {
+    background-color: rgb(164, 154, 184);
+}
+
+
+.Fruit-add-button:active {
+    transform: translateY(3px);
+}
+.btnStyle{
+    border-radius: 5px;
+    background-color: rgb(123, 193, 109);
+    width: 38%;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: rgb(252, 248, 248);
+}
+.btnStyle:hover{
+    color: red;
+} 
+
